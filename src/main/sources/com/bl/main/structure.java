@@ -8,7 +8,7 @@ public class structure {
 
 		    llist.insertAtBeginning(56);
 		    llist.insertAfter(llist.head.next,30);
-		    llist.insertAfter(llist.head.next,70);
+		    llist.insertAtEnd(70);
 
 		    System.out.println("Linked list: ");
 		    llist.printList();
