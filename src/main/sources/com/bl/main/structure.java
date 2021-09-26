@@ -10,6 +10,7 @@ public class structure {
 		    llist.insertAfter(llist.head.next,30);
 		    llist.insertAtEnd(70);
 		    llist.deletefirst();
+		    llist.deletelast(llist.head.next.next);
 
 		    System.out.println("Linked list: ");
 		    llist.printList();

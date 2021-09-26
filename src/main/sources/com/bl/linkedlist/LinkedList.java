@@ -32,6 +32,14 @@ public class LinkedList {
 			  head = head.next;
 
 		  }
+		  // deleting from last
+		  public void deletelast(Node temp) {
+			  temp = head;
+			  while(temp.next.next!=null){
+			    temp = temp.next;
+			  }
+			  temp.next = null;
+		  }
 		  
 		  //Insert after a node
 		  public void insertAfter(Node prev_node, int new_data) {
