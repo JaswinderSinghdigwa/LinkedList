@@ -9,6 +9,7 @@ public class structure {
 		    llist.insertAtBeginning(56);
 		    llist.insertAfter(llist.head.next,30);
 		    llist.insertAtEnd(70);
+		    llist.deletefirst();
 
 		    System.out.println("Linked list: ");
 		    llist.printList();
