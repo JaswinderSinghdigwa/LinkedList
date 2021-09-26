@@ -20,8 +20,9 @@ public class structure {
 		    System.out.println("Linked list: ");
 		    llist.insertAfter(llist.head.next, 40);
 		    llist.deletelast(llist.head.next.next);
+		    llist.sortLinkedList(llist.head);
 		    llist.printList();
 
-//		  ;
+//
 	}
 }
