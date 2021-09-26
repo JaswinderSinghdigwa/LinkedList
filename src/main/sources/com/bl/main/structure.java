@@ -11,6 +11,11 @@ public class structure {
 		    llist.insertAtEnd(70);
 		    llist.deletefirst();
 		    llist.deletelast(llist.head.next.next);
+		    int item_to_find = 30;
+		    if (llist.search(llist.head, item_to_find))
+		      System.out.println(item_to_find + " is found");
+		    else
+		      System.out.println(item_to_find + " is not found");
 
 		    System.out.println("Linked list: ");
 		    llist.printList();

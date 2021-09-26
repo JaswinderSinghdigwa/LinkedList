@@ -41,6 +41,16 @@ public class LinkedList {
 			  temp.next = null;
 		  }
 		  
+		  // Search a node
+		  public boolean search(Node head, int key) {
+		    Node current = head;
+		    while (current != null) {
+		      if (current.data == key)
+		        return true;
+		      current = current.next;
+		    }
+		    return false;
+		  }
 		  //Insert after a node
 		  public void insertAfter(Node prev_node, int new_data) {
 		    if (prev_node == null) {
