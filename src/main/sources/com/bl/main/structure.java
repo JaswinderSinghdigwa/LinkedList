@@ -18,7 +18,7 @@ public class structure {
 		      System.out.println(item_to_find + " is not found");
 
 		    System.out.println("Linked list: ");
-		    llist.insertAfter(llist.head, 70);
+		    llist.insertAfter(llist.head.next, 40);
 		    llist.printList();
 
 //		  ;
