@@ -58,7 +58,7 @@ public class LinkedList {
 		    last.next = new_node;
 		    return;
 		  }
-		  
+
 		  // Print the linked list
 		  public void printList() {
 		    Node tnode = head;

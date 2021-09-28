@@ -6,11 +6,12 @@ public class structure {
 	 public static void main(String[] args) {
 		    LinkedList llist = new LinkedList();
 
-		    llist.insertAtBeginning(56);
-		    llist.insertAfter(llist.head.next,30);
-		    llist.insertAfter(llist.head.next,70);
+		    llist.insertAtEnd(70);
+		    llist.insertMiddle(llist.head, 30);
+		    llist.insertAtBeginning( 56);
 
 		    System.out.println("Linked list: ");
 		    llist.printList();
-	 }
+
+	}
 }
