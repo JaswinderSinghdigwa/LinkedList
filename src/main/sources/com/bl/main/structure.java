@@ -12,7 +12,5 @@ public class structure {
 
 		    System.out.println("Linked list: ");
 		    llist.printList();
-
-//		  ;
-	}
+	 }
 }

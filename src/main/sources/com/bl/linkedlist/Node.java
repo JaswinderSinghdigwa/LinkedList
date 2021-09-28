@@ -10,5 +10,5 @@ public class Node {
 	      data = d;
 	      next = null;
 	    }
-	  
+
 }

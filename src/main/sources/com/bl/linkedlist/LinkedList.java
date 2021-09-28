@@ -27,8 +27,8 @@ public class LinkedList {
 			  new_node.next = temp.next;
 			  temp.next = new_node;
 		  }
-		  
-		  
+
+
 		 //Insert after a node
 		  public void insertAfter(Node prev_node, int new_data) {
 		    if (prev_node == null) {
@@ -58,7 +58,7 @@ public class LinkedList {
 		    last.next = new_node;
 		    return;
 		  }
-		 
+		  
 		  // Print the linked list
 		  public void printList() {
 		    Node tnode = head;
